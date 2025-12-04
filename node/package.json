@@ -1,0 +1,25 @@
+{
+  "name": "wasender-whatsapp",
+  "version": "1.0.0",
+  "description": "Servidor WhatsApp para WASender",
+  "main": "whatsapp-server.js",
+  "scripts": {
+    "start": "node whatsapp-server.js",
+    "dev": "nodemon whatsapp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "qrcode": "^1.5.3",
+    "mysql2": "^3.6.0",
+    "puppeteer": "^21.0.0",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
