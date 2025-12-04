@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /GIT/
+
+# Proteger diretórios
+RewriteRule ^(node|scripts|database|whatsapp) - [F,L]
+
+# Redirecionar tudo para index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/ [L,QSA]
