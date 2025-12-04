@@ -1,0 +1,24 @@
+# Configurações sensíveis
+config.php
+.env
+
+# Logs
+*.log
+logs/
+node/logs/
+temp/
+sessions/
+qrcodes/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Hostinger
+error_log
